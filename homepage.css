@@ -1,0 +1,186 @@
+body {
+  background-color: #000000; /* Black background */
+  color: white; /* Default text color */
+}
+
+#myNavbar {
+  background-color:grey; /* Gray background */
+  height:60px;
+  
+}
+
+.navbar-nav .nav-link {
+  color:white; /* Black text */
+  font-family:roboto;
+  font-size:30px;
+}
+
+.navbar-nav .nav-link:hover {
+  color:orange; /* Orange text on hover */
+}
+
+.section {
+  padding: 40px 0;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.card {
+  background-color: #333333; /* Dark background for cards */
+  color: white; /* White text for card content */
+}
+/* about css */
+#about {
+  padding: 40px 0; /* Adjust padding as needed */
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: white; /* White text for the heading */
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto; /* Responsive image */
+  border-radius: 10px; /* Rounded corners */
+}
+.rounded-circle {
+  border-radius: 50%; /* Makes the image circular */
+  width: 200px; /* Set width */
+  height: 200px; /* Set height */
+}
+
+/* Section styling skills */
+#skills {
+  background-color: #282828;
+  color: #fff;
+  padding: 50px 0;
+}
+
+/* Card styles */
+.card {
+  background-color:gray;
+  border: none;
+  margin: 10px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-title {
+  margin-top: 10px;
+  color: #fff;
+}
+
+/* Icon styles */
+.card i {
+  color: #ff6b6b;
+}
+
+/* Marquee effect */
+.marquee {
+  display: flex;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: scroll 10s linear infinite;
+}
+
+/* Scroll animation */
+@keyframes scroll {
+  0% {
+      transform: translateX(100%);
+  }
+  100% {
+      transform: translateX(-100%);
+  }
+}
+#projects {
+  background-color: #282828;
+  color: #fff;
+  padding: 50px 0;
+}
+
+.card {
+  background-color: #333;
+  border: none;
+}
+
+.card-title {
+  color: #ff6b6b;
+}
+
+.card-text {
+  color: #ddd;
+}
+
+.card-img {
+  object-fit: cover;
+  height: 100%;
+}
+
+
+/* styles.css */
+
+
+.login-section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.login-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact-section {
+  padding: 40px 0;
+}
+
+.contact-section h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.contact-section .form-control {
+  border-radius: 5px;
+}
+
+.contact-section .btn-primary {
+  background-color: #007bff;
+  border: none;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+
+.contact-section .btn-primary:hover {
+  background-color: #0056b3;
+}
+
+
+
+.social-icons a {
+  color: #333;
+  margin-right: 15px;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #007bff; /* Change color on hover */
+}
+
